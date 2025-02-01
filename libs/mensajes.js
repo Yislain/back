@@ -1,8 +1,8 @@
-export function mensajes(status, mensajeUsuario, mensajeOriginal = "", token = "") {
+// libs/mensajes.js
+export function mensajes(status, mensajeUsuario, data = null) {
     return {
         status,
         mensajeUsuario,
-        mensajeOriginal,
-        token
+        data
     };
 }
