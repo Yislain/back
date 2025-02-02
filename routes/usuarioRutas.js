@@ -1,4 +1,3 @@
-// routes/usuarioRutas.js
 import { Router } from "express";
 import {
     register,
