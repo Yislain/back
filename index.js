@@ -8,7 +8,7 @@ const app = express();
 conectarBD();
 
 app.use(cookieParser());
-app.use(express.json());  // 🔥 Asegúrate de que esta línea esté aquí
+app.use(express.json()); 
 app.use(express.urlencoded({ extended: true }));
 
 app.use(cors({
